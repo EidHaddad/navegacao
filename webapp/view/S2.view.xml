@@ -1,0 +1,13 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml"
+	controllerName="ovly.navegacao.controller.S2">
+	<Page title="S2">
+		<footer>
+			<Toolbar width="100%">
+				<content>
+					<ToolbarSpacer/>
+					<Button icon="sap-icon://add" press="onPressAdd"/>
+				</content>
+			</Toolbar>
+		</footer>
+	</Page>
+</mvc:View>
