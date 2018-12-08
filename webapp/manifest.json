@@ -89,24 +89,36 @@
 					"name": "adicionar",
 					"pattern": "add",
 					"target": [
-						"S3", "S1"
+						"S3",
+						"S1"
 					]
-				}
+				},
+				{
+					"name": "exibir",
+					"pattern": "detalhe/{identificador}",
+					"target": [
+						"S2",
+						"S4"
+					]
+				}				
 			],
 			"targets": {
 				"S1": {
 					"controlAggregation": "detailPages",
 					"viewName": "S1",
-					"viewlevel": 1						
+					"viewlevel": 1
 				},
 				"S2": {
 					"viewName": "S2",
-					"viewlevel": 1					
+					"viewlevel": 1
 				},
 				"S3": {
-
 					"viewName": "S3",
-					"viewlevel": 2					
+					"viewlevel": 2
+				},
+				"S4": {
+					"controlAggregation": "detailPages",
+					"viewName": "S4"
 				}
 			}
 		}

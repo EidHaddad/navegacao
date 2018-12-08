@@ -1,0 +1,30 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="ovly.navegacao.controller.S4"
+	xmlns:html="http://www.w3.org/1999/xhtml" 	xmlns:semantic="sap.m.semantic"
+	>
+	
+	<!--<Page title="S4">-->
+	<!--	<content></content>-->
+	<!--</Page>-->
+	
+	<semantic:DetailPage title="S4">
+		<semantic:flagAction>
+			<semantic:FlagAction/>
+		</semantic:flagAction>
+		<semantic:addAction>
+			<semantic:AddAction/>
+			<!-- 1) haverá um botão -->
+			<!-- 2) ícone -->
+			<!-- 3) botão + já terá um posicionamento -->
+			<!-- 4) tooltip (com tradução) -->
+			<!-- 5) posicionamento relativo aos outros SemanticButtons -->
+		</semantic:addAction>
+		<semantic:negativeAction>
+			<semantic:NegativeAction text="Negative"/>
+		</semantic:negativeAction>
+		<semantic:positiveAction>
+			<semantic:PositiveAction text="Positive"/>
+		</semantic:positiveAction>
+	</semantic:DetailPage>
+
+	
+</mvc:View>
